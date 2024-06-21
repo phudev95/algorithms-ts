@@ -1,0 +1,10 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "runFile",
+      "type": "shell",
+      "command": "${workspaceFolder}/node_modules/.bin/ts-node ${file}",
+    }
+  ]
+}
