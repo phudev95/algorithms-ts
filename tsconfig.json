@@ -1,8 +1,12 @@
 {
   "compilerOptions": {
-    "target": "ES5",
-    "module": "CommonJS",
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
     "sourceMap": true,
-    "outDir": "dist"
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "types": ["vitest/globals"]
   }
 }

@@ -2,5 +2,7 @@
   "editor.formatOnSave": true,
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "vitest.enable": true,
+  "vitest.commandLine": "yarn test"
 }
